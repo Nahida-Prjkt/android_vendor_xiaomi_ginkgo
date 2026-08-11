@@ -1472,6 +1472,7 @@ PRODUCT_PACKAGES += \
     libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1 \
     sensors.ssc \
     vendor.qti.hardware.fingerprint@1.0 \
+    android.frameworks.displayservice@1.0 \
     vendor_lib_rfsa_adsp_misound_karaoke_res_bin \
     vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
     vendor_lib_rfsa_adsp_misound_res_bin \
