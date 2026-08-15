@@ -686,7 +686,6 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "libhal_dbg",
                 "libion",
-                "android.frameworks.displayservice@1.0",
                 "android.hidl.base@1.0",
                 "libhidlbase",
                 "libalLDC",
@@ -724,6 +723,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     relative_install_path: "hw",
     prefer: true,
+    check_elf_files: false,
     soc_specific: true,
 }
 
